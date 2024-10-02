@@ -1,0 +1,13 @@
+import { initializeApp } from "firebase/app";
+import firebaseConfig from './firebaseConfig.json'; 
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBT2Ur2Hw7jDr4j7b5G-tmAbZqFZiiba_U",
+  authDomain: "task-app-2f28a.firebaseapp.com",
+  projectId: "task-app-2f28a",
+  storageBucket: "task-app-2f28a.appspot.com",
+  messagingSenderId: "1070513780130",
+  appId: "1:1070513780130:web:839cdce152a354829eeefb"
+};
+
+const app = initializeApp(firebaseConfig);
